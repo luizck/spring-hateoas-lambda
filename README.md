@@ -12,10 +12,10 @@ https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/i
 
 
 ```
-sam invoke -e elb-event.json
+sam local invoke -e elb-event.json
 ```
 
 Debug mode:
 ```
-sam invoke -d 5005 -e elb-event.json
+sam local invoke -d 5005 -e elb-event.json
 ```
