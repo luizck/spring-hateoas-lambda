@@ -1,0 +1,7 @@
+com\example\LambdaRequestHandler.class
+com\example\PeopleApi.class
+com\example\GetPeopleResponse.class
+com\example\PeopleRepository.class
+com\example\PeopleController.class
+com\example\Person.class
+com\example\SpringBootLambdaApplication.class

@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+
+Resources:
+
+  ##########################################################################
+  #   LAMBDA FUNCTION                                                      #
+  ##########################################################################
+  SpringBootHateoasLambda:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 60
+      Tracing: Active
+      MemorySize: 1024
+      Runtime: java17
+      Handler: com.example.LambdaRequestHandler::handleRequest
+      CodeUri: ./target/spring-hateoas-lambda.zip
+      Environment:
+        Variables:
+          TZ: America/Sao_Paulo
