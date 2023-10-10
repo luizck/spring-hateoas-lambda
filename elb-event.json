@@ -1,7 +1,7 @@
 {
   "requestContext": {
     "elb": {
-      "targetGroupArn": "arn:aws:elasticloadbalancing:sa-east-1:802916831419:targetgroup/cirrus-Publi-XXMMHHJCIFOK/999c36e8bb2fa9c6"
+      "targetGroupArn": "arn:aws:elasticloadbalancing:sa-east-1:111111111111:targetgroup/tg-XXMMHHJCIFOK/999c36e8bb2fa9c6"
     }
   },
   "httpMethod": "GET",
